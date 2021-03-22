@@ -1,0 +1,2 @@
+#!/bin/sh
+find "$HOME/docs/pics/wallpapers" -type f | shuf -n 1 | xargs xwallpaper --zoom
